@@ -1,1 +1,1 @@
-# Responsive-color-jss
+# colors
