@@ -525,3 +525,15 @@
         transition: 0.3s ease-in;
         cursor: pointer;
     }
+    
+    @media screen and (max-width:1300px) {
+        .services__wrapper {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+    
+    @media screen and (max-width:768px) {
+        .services__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
