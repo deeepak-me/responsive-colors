@@ -10,13 +10,13 @@ const mobileMenu = () => {
 menu.addEventListener('click', mobileMenu);
 
 //show active menu when scrolling
-const highLightMenu = () => {
-    const elem = document.querySelector(.
-        'higlight');
-    const elem = document.querySelector(.
-        'higlight');
-    const elem = document.querySelector(.
-        'higlight');
-    const elem = document.querySelector(.
-        'higlight');
+const highlightMenu = () => {
+    const element = document.querySelector(.
+        'highlight');
+    const homeMenu = document.querySelector(.
+        '#home-page');
+    const aboutMenu = document.querySelector(.
+        '#about-page');
+    const servicesMenu = document.querySelector(.
+        '#services-page');
 }
