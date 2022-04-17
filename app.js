@@ -27,5 +27,8 @@ const highlightMenu = () => {
         aboutMenu.classList.add('highlight')
         homeMenu.classList.remove('highlight')
         servicesMenu.classList.remove('highlight')
+        return
     }
+
+    if ((elem))
 }
