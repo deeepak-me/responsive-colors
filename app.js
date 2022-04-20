@@ -14,7 +14,7 @@ const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
     const homeMenu = document.querySelector('#home-page');
     const aboutMenu = document.querySelector('#about-page');
-    const servicesMenu = document.querySelector("services-page");
+    const servicesMenu = document.querySelector("#services-page");
     let scrollPos = window.scrollY
 
     // adds 'highlight' class to my menu items
@@ -38,3 +38,6 @@ const highlightMenu = () => {
         elem.classList.remove('highlight')
     }
 }
+
+window.addEventListener('scroll', highlightMenu)
+window.addEventListener('click', highlightMenu)
